@@ -22,8 +22,7 @@ public static final String ANSI_WHITE = "\u001B[37m";
         
         
         System.out.println("✓ Hello World!");
-        System.out.println(ANSI_RED + "This text is red!" + ANSI_RESET);
-
+        System.out.println("\033[42m\033[97mWhite letters, green background\033[0m");
         
     }
 }
