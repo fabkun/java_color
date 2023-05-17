@@ -13,7 +13,7 @@ public class Java_color {
     public static void main(String[] args) {
         
         StringBuilder sb = new StringBuilder();
-        sb.append("Hi, We have received your request. Your account will be unblocked within 48 hours.");
+        sb.append("\\033[31mRed\\033[0m");
         sb.append("<br><br><a href=\"http://www.google.com\" target=\"_blank\"><button>Click me !</button></a>");
         
         
